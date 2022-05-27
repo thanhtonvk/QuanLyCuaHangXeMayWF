@@ -1,0 +1,15 @@
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\bin\Debug\QuanLyCuaHangXeMay.exe.config
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\bin\Debug\QuanLyCuaHangXeMay.exe
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\bin\Debug\QuanLyCuaHangXeMay.pdb
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.csproj.AssemblyReference.cache
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.csproj.SuggestedBindingRedirects.cache
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.Properties.Resources.resources
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.csproj.GenerateResource.cache
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.csproj.CoreCompileInputs.cache
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.exe
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.pdb
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.Presentation.AdminFrm.resources
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.Presentation.ChiTietHDBFrm.resources
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.Presentation.ChiTietHDNFrm.resources
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.DangNhapFrm.resources
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.Presentation.NhanVienFrm.resources

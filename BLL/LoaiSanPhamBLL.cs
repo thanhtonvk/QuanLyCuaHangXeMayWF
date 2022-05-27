@@ -1,7 +1,7 @@
 ﻿using QuanLyCuaHangXeMay.BLL.InterfaceService;
 using QuanLyCuaHangXeMay.DAL;
 using QuanLyCuaHangXeMay.DAL.InterfaceService;
-using QuanLyCuaHangXeMay.Models;
+using Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyCuaHangXeMay.BLL
 {
-    internal class LoaiSanPhamBLL : ILoaiSanPhamBLL
+    public class LoaiSanPhamBLL : ILoaiSanPhamBLL
     {
         ILoaiSanPhamDAL dal = new LoaiSanPhamDAL();
 

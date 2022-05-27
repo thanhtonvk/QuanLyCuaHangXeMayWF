@@ -1,5 +1,5 @@
 ﻿using QuanLyCuaHangXeMay.DAL.InterfaceService;
-using QuanLyCuaHangXeMay.Models;
+using Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyCuaHangXeMay.DAL
 {
-    internal class SanPhamDAL : ISanPhamDAL
+    public class SanPhamDAL : ISanPhamDAL
     {
         private DBContext db = new DBContext();
 

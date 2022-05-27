@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyCuaHangXeMay.BLL.InterfaceService
 {
-    internal interface IChiTietHDBBLL
+    public interface IChiTietHDBBLL
     {
         string Add(ChiTietHDB chiTietHDB);
         string Delete(int id);

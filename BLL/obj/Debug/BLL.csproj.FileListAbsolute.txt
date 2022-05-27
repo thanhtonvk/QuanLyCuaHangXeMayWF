@@ -1,0 +1,2 @@
+D:\Winform\QuanLyCuaHangXeMay\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Winform\QuanLyCuaHangXeMay\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache

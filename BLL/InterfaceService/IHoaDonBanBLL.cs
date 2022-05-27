@@ -1,4 +1,4 @@
-﻿using QuanLyCuaHangXeMay.Models;
+﻿using Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyCuaHangXeMay.BLL.InterfaceService
 {
-    internal interface IHoaDonBanBLL
+    public interface IHoaDonBanBLL
     {
         string Add(HoaDonBan hoaDonBan);
         string Update(HoaDonBan hoaDonBan);

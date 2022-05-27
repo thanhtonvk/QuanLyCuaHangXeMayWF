@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using QuanLyCuaHangXeMay.DAL.InterfaceService;
-using QuanLyCuaHangXeMay.Models;
+using Entity;
 
 namespace QuanLyCuaHangXeMay.DAL
 {

@@ -1,4 +1,4 @@
-﻿using QuanLyCuaHangXeMay.Models;
+﻿using Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using QuanLyCuaHangXeMay.DAL.InterfaceService;
 
 namespace QuanLyCuaHangXeMay.DAL
 {
-    internal class TaiKhoanDAL : ITaiKhoanDAL
+    public class TaiKhoanDAL : ITaiKhoanDAL
     {
         private DBContext db = new DBContext();
 

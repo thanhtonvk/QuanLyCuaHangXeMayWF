@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using QuanLyCuaHangXeMay.Models;
+using Entity;
 
 namespace QuanLyCuaHangXeMay.BLL.InterfaceService
 {

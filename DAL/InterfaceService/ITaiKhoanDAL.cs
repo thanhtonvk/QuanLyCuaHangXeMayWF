@@ -1,4 +1,4 @@
-﻿using QuanLyCuaHangXeMay.Models;
+﻿using Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyCuaHangXeMay.DAL.InterfaceService
 {
-    internal interface ITaiKhoanDAL
+    public interface ITaiKhoanDAL
     {
         int Add(TaiKhoan taiKhoan);
         int Update(TaiKhoan taiKhoan);

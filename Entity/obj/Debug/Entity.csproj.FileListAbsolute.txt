@@ -1,0 +1,10 @@
+D:\Winform\QuanLyCuaHangXeMay\Entity\bin\Debug\Entity.dll.config
+D:\Winform\QuanLyCuaHangXeMay\Entity\bin\Debug\Entity.dll
+D:\Winform\QuanLyCuaHangXeMay\Entity\bin\Debug\Entity.pdb
+D:\Winform\QuanLyCuaHangXeMay\Entity\bin\Debug\EntityFramework.dll
+D:\Winform\QuanLyCuaHangXeMay\Entity\bin\Debug\EntityFramework.xml
+D:\Winform\QuanLyCuaHangXeMay\Entity\obj\Debug\Entity.csproj.AssemblyReference.cache
+D:\Winform\QuanLyCuaHangXeMay\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+D:\Winform\QuanLyCuaHangXeMay\Entity\obj\Debug\Entity.csproj.CopyComplete
+D:\Winform\QuanLyCuaHangXeMay\Entity\obj\Debug\Entity.dll
+D:\Winform\QuanLyCuaHangXeMay\Entity\obj\Debug\Entity.pdb

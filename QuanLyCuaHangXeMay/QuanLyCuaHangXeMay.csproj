@@ -46,14 +46,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Presentation\AdminFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Presentation\AdminFrm.designer.cs">
+      <DependentUpon>AdminFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ChiTietHDBFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ChiTietHDBFrm.designer.cs">
+      <DependentUpon>ChiTietHDBFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ChiTietHDNFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ChiTietHDNFrm.designer.cs">
+      <DependentUpon>ChiTietHDNFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\DangNhapFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\DangNhapFrm.designer.cs">
+      <DependentUpon>DangNhapFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\NhanVienFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\NhanVienFrm.designer.cs">
+      <DependentUpon>NhanVienFrm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Common.cs" />
+    <EmbeddedResource Include="Presentation\AdminFrm.resx">
+      <DependentUpon>AdminFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ChiTietHDBFrm.resx">
+      <DependentUpon>ChiTietHDBFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ChiTietHDNFrm.resx">
+      <DependentUpon>ChiTietHDNFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\DangNhapFrm.resx">
+      <DependentUpon>DangNhapFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\NhanVienFrm.resx">
+      <DependentUpon>NhanVienFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -78,6 +118,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="csdl.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{85adde6b-691b-449b-8076-9821623ca08a}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{0a1f2919-5688-4747-99f5-0e79391f56e7}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,4 @@
-﻿using QuanLyCuaHangXeMay.Models;
+﻿using Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyCuaHangXeMay.BLL.InterfaceService
 {
-    internal interface INhanVienBLL
+    public interface INhanVienBLL
     {
         string Add(NhanVien nhanVien);
         string Update(NhanVien nhanVien);
