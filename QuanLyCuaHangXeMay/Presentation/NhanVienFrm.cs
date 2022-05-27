@@ -48,7 +48,11 @@ namespace QuanLyCuaHangXeMay.Presentation
         private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
         {
             ComboBox cb = sender as ComboBox;
-            maloai = cb.SelectedValue.ToString();
+            if (cb.SelectedValue != null)
+            {
+                maloai = cb.SelectedValue.ToString();
+            }
+          
 
         }
 
@@ -56,14 +60,14 @@ namespace QuanLyCuaHangXeMay.Presentation
         {
             string tensp = textBox2.Text;
             DateTime ngaysx = dateTimePicker1.Value;
-            DateTime hansd = dateTimePicker2.Value;
+            string ThongSoKyThuat = txtMoTa.Text;
             int solo = int.Parse(textBox5.Text.Trim());
             int dongia = int.Parse(textBox6.Text);
             SanPham sanPham = new SanPham()
             {
                 TenSP = tensp,
                 NgaySX = ngaysx,
-                HanSD = hansd,
+                ThongSoKyThuat = ThongSoKyThuat,
                 SoLo = solo,
                 DonGia = dongia,
                 MaLoai = int.Parse(maloai.Trim())
@@ -80,7 +84,7 @@ namespace QuanLyCuaHangXeMay.Presentation
             string masp = label2.Text.Trim();
             string tensp = textBox2.Text;
             DateTime ngaysx = dateTimePicker1.Value;
-            DateTime hansd = dateTimePicker2.Value;
+            string ThongSoKyThuat = txtMoTa.Text;
             int solo = int.Parse(textBox5.Text.Trim());
             int dongia = int.Parse(textBox6.Text);
             SanPham sanPham = new SanPham()
@@ -88,7 +92,7 @@ namespace QuanLyCuaHangXeMay.Presentation
                 MaSP = int.Parse(masp),
                 TenSP = tensp,
                 NgaySX = ngaysx,
-                HanSD = hansd,
+                ThongSoKyThuat = ThongSoKyThuat,
                 SoLo = solo,
                 DonGia = dongia,
                 MaLoai = int.Parse(maloai.Trim())
@@ -122,7 +126,7 @@ namespace QuanLyCuaHangXeMay.Presentation
                 comboBox1.SelectedIndex = int.Parse(row.Cells[2].Value.ToString()) - 1;
 
                 dateTimePicker1.Text = row.Cells[3].Value.ToString();
-                dateTimePicker2.Text = row.Cells[4].Value.ToString();
+                txtMoTa.Text = row.Cells[4].Value.ToString();
                 textBox5.Text = row.Cells[5].Value.ToString();
                 textBox6.Text = row.Cells[6].Value.ToString();
             }
@@ -144,6 +148,8 @@ namespace QuanLyCuaHangXeMay.Presentation
             string rs = loaiSanPhamBLL.Add(loaiSanPham);
             MessageBox.Show(rs);
             dataGridView2.DataSource = loaiSanPhamBLL.GetAll("");
+            loadSanPham();
+           
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -255,7 +261,11 @@ namespace QuanLyCuaHangXeMay.Presentation
         private void comboBox2_SelectedValueChanged(object sender, EventArgs e)
         {
             ComboBox cb = sender as ComboBox;
-            madaily = cb.SelectedValue.ToString();
+            if (cb.SelectedValue != null)
+            {
+                madaily = cb.SelectedValue.ToString();
+            }
+           
 
         }
 
@@ -361,7 +371,11 @@ namespace QuanLyCuaHangXeMay.Presentation
         private void comboBox3_SelectedValueChanged(object sender, EventArgs e)
         {
             ComboBox cb = sender as ComboBox;
-            manv = cb.SelectedValue.ToString();
+            if (cb.SelectedValue != null)
+            {
+                manv = cb.SelectedValue.ToString();
+            }
+           
         }
 
         private void button19_Click(object sender, EventArgs e)

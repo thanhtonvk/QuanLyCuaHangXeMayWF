@@ -73,7 +73,6 @@
             this.button5 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -108,6 +107,7 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.button12 = new System.Windows.Forms.Button();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.txtMoTa = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
@@ -558,7 +558,7 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.dateTimePicker2);
+            this.tabPage4.Controls.Add(this.txtMoTa);
             this.tabPage4.Controls.Add(this.dateTimePicker1);
             this.tabPage4.Controls.Add(this.comboBox1);
             this.tabPage4.Controls.Add(this.textBox7);
@@ -584,13 +584,6 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Sản phẩm";
             this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(770, 273);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(222, 20);
-            this.dateTimePicker2.TabIndex = 21;
             // 
             // dateTimePicker1
             // 
@@ -692,9 +685,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(767, 257);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 13);
+            this.label6.Size = new System.Drawing.Size(93, 13);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Hạn sử dụng";
+            this.label6.Text = "Thông số kỹ thuật";
             // 
             // label5
             // 
@@ -717,18 +710,18 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(767, 161);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 13);
+            this.label4.Size = new System.Drawing.Size(40, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Tên sản phẩm";
+            this.label4.Text = "Tên xe";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(767, 106);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 13);
+            this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Loại sản phẩm";
+            this.label3.Text = "Loại xe";
             // 
             // label2
             // 
@@ -743,9 +736,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(767, 77);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 13);
+            this.label1.Size = new System.Drawing.Size(36, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Mã sản phẩm";
+            this.label1.Text = "Mã xe";
             // 
             // dataGridView1
             // 
@@ -901,6 +894,13 @@
             this.dataGridView3.TabIndex = 31;
             this.dataGridView3.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellClick);
             // 
+            // txtMoTa
+            // 
+            this.txtMoTa.Location = new System.Drawing.Point(770, 273);
+            this.txtMoTa.Name = "txtMoTa";
+            this.txtMoTa.Size = new System.Drawing.Size(222, 20);
+            this.txtMoTa.TabIndex = 21;
+            // 
             // NhanVienFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -947,7 +947,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox7;
@@ -1012,5 +1011,6 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.TextBox txtMoTa;
     }
 }

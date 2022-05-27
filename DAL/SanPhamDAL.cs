@@ -28,7 +28,7 @@ namespace QuanLyCuaHangXeMay.DAL
                 model.NgaySX = sanPham.NgaySX;
                 model.MaLoai = sanPham.MaLoai;
                 model.DonGia = sanPham.DonGia;
-                model.HanSD = sanPham.HanSD;
+                model.ThongSoKyThuat = sanPham.ThongSoKyThuat;
                 return db.SaveChanges();
             }
             return 0;

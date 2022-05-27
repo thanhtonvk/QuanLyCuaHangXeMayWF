@@ -76,7 +76,7 @@
     <Property Name="TenSP" Type="nvarchar" MaxLength="50" />
     <Property Name="MaLoai" Type="int" Nullable="false" />
     <Property Name="NgaySX" Type="date" />
-    <Property Name="HanSD" Type="date" />
+    <Property Name="ThongSoKyThuat" Type="nvarchar(max)" />
     <Property Name="SoLo" Type="int" />
     <Property Name="DonGia" Type="int" />
   </EntityType>

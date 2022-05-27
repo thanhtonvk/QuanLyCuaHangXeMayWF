@@ -18,7 +18,7 @@ namespace Entity
         public string TenSP { get; set; }
         public int MaLoai { get; set; }
         public Nullable<System.DateTime> NgaySX { get; set; }
-        public Nullable<System.DateTime> HanSD { get; set; }
+        public string ThongSoKyThuat { get; set; }
         public Nullable<int> SoLo { get; set; }
         public Nullable<int> DonGia { get; set; }
     }

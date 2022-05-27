@@ -1,2 +1,14 @@
 D:\Winform\QuanLyCuaHangXeMay\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 D:\Winform\QuanLyCuaHangXeMay\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Winform\QuanLyCuaHangXeMay\BLL\bin\Debug\BLL.dll
+D:\Winform\QuanLyCuaHangXeMay\BLL\bin\Debug\BLL.pdb
+D:\Winform\QuanLyCuaHangXeMay\BLL\bin\Debug\DAL.dll
+D:\Winform\QuanLyCuaHangXeMay\BLL\bin\Debug\Entity.dll
+D:\Winform\QuanLyCuaHangXeMay\BLL\bin\Debug\EntityFramework.dll
+D:\Winform\QuanLyCuaHangXeMay\BLL\bin\Debug\DAL.pdb
+D:\Winform\QuanLyCuaHangXeMay\BLL\bin\Debug\Entity.pdb
+D:\Winform\QuanLyCuaHangXeMay\BLL\bin\Debug\Entity.dll.config
+D:\Winform\QuanLyCuaHangXeMay\BLL\bin\Debug\EntityFramework.xml
+D:\Winform\QuanLyCuaHangXeMay\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Winform\QuanLyCuaHangXeMay\BLL\obj\Debug\BLL.dll
+D:\Winform\QuanLyCuaHangXeMay\BLL\obj\Debug\BLL.pdb

@@ -13,3 +13,13 @@ D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.Pr
 D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.Presentation.ChiTietHDNFrm.resources
 D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.DangNhapFrm.resources
 D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.Presentation.NhanVienFrm.resources
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\bin\Debug\BLL.dll
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\bin\Debug\Entity.dll
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\bin\Debug\EntityFramework.dll
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\bin\Debug\DAL.dll
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\bin\Debug\BLL.pdb
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\bin\Debug\Entity.pdb
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\bin\Debug\Entity.dll.config
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\bin\Debug\EntityFramework.xml
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\bin\Debug\DAL.pdb
+D:\Winform\QuanLyCuaHangXeMay\QuanLyCuaHangXeMay\obj\Debug\QuanLyCuaHangXeMay.csproj.CopyComplete

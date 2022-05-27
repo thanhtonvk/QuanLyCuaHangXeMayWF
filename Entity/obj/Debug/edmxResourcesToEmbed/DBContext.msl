@@ -83,7 +83,7 @@
           <ScalarProperty Name="TenSP" ColumnName="TenSP" />
           <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
           <ScalarProperty Name="NgaySX" ColumnName="NgaySX" />
-          <ScalarProperty Name="HanSD" ColumnName="HanSD" />
+          <ScalarProperty Name="ThongSoKyThuat" ColumnName="ThongSoKyThuat" />
           <ScalarProperty Name="SoLo" ColumnName="SoLo" />
           <ScalarProperty Name="DonGia" ColumnName="DonGia" />
         </MappingFragment>

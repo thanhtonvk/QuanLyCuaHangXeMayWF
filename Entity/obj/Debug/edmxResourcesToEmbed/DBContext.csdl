@@ -76,7 +76,7 @@
     <Property Name="TenSP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="MaLoai" Type="Int32" Nullable="false" />
     <Property Name="NgaySX" Type="DateTime" Precision="0" />
-    <Property Name="HanSD" Type="DateTime" Precision="0" />
+    <Property Name="ThongSoKyThuat" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="SoLo" Type="Int32" />
     <Property Name="DonGia" Type="Int32" />
   </EntityType>

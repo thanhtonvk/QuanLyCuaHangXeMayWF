@@ -4,12 +4,14 @@ create database QuanLyCuaHangXeMay
 go
 use QuanLyCuaHangXeMay
 go
-create table QuanLyCuaHangXeMay
+create table TaiKhoan
 (
     TenDangNhap nvarchar(20) primary key,
     MatKhau     nvarchar(20) not null,
     LoaiTK      nvarchar(10)
 )
+go
+insert into TaiKhoan values('admin','admin','admin')
 go
 create table LoaiSanPham
 (
@@ -39,10 +41,11 @@ create table SanPham
     TenSP  nvarchar(50),
     MaLoai int not null,
     NgaySX date,
-    HanSD  date,
+    ThongSoKyThuat  nvarchar(max),
     SoLo   int,
     DonGia int
 )
+
 go
 
 create table HoaDonBan

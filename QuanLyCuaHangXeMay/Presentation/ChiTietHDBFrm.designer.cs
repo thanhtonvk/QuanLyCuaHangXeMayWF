@@ -106,9 +106,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(572, 132);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 13);
+            this.label4.Size = new System.Drawing.Size(42, 13);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Sản phẩm";
+            this.label4.Text = "Xe máy";
             // 
             // button1
             // 
